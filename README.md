@@ -13,4 +13,6 @@ This is the second project of the Software Engineering program at TripleTen. It 
 
 ## Plan on improving the project
 
-Add your ideas here :)
+-Understand why I made the mistakes that I made and practice doing whatever I need to avoid making them again.
+-Improve the way that smooth transitions are displayed.
+-Get better at coding the initial markup.

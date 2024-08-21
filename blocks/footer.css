@@ -1,11 +1,12 @@
 .footer {
   background: linear-gradient(180deg, #0a2850 0%, #071931 100%);
-  padding: 60px 80px 108px;
+  padding: 60px 80px;
 }
 
 .footer__content {
   display: flex;
   justify-content: space-between;
+  margin: 0 0 108px;
 }
 
 .footer__logo {
@@ -46,6 +47,10 @@
   margin-bottom: 16px;
 }
 
+.footer__list-item:last-child {
+  margin-bottom: 0;
+}
+
 .footer__social-icon {
   height: 16px;
   width: 16px;
@@ -65,11 +70,11 @@
 }
 
 .footer__copyright {
-  margin: 108px 0 60px;
   font-family: "Inter", Arial, sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
   line-height: 20px;
   color: #fff;
+  margin: 0;
 }

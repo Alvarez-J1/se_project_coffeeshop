@@ -1,11 +1,9 @@
 @keyframes pulsate {
   0% {
     opacity: 0;
-    transform: scale(1);
   }
   50% {
     opacity: 0.6;
-    transform: scale(1.2);
   }
   100% {
     opacity: 0;
@@ -50,21 +48,20 @@
 
 .about__content {
   max-width: 660px;
-  padding: 0;
   color: #fff;
   font-family: "Noto Serif", Times New Roman, serif;
   font-style: normal;
   font-weight: normal;
   font-size: 20px;
   line-height: 30px;
-  margin: 119px 80px 173px;
+  margin: 119px 0 0;
 }
 
 .about__paragraph {
-  max-width: 660px;
   color: #fff;
+  margin: 20px 0 0;
 }
 
 .about__paragraph:last-child {
-  margin-bottom: 173px;
+  margin-bottom: 0;
 }

@@ -64,6 +64,10 @@
   margin: 20px 0 0;
 }
 
+.about__paragraph:first-child {
+  margin: 0;
+}
+
 .about__paragraph:last-child {
   margin-bottom: 0;
 }
